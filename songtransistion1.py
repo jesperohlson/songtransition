@@ -12,3 +12,4 @@ mixed = song1.append(song2, crossfade=crossfade_duration)
 
 # Export result
 mixed.export("seamless_mix.mp3", format="mp3")
+print("Finsished")
