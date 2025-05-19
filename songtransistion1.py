@@ -1,8 +1,8 @@
 from pydub import AudioSegment
 
 # Load songs
-song1 = AudioSegment.from_file("song1.mp3")
-song2 = AudioSegment.from_file("song2.mp3")
+song1 = AudioSegment.from_file("lilbaby-grace.mp3")
+song2 = AudioSegment.from_file("playboicarti-location.mp3")
 
 # Duration of crossfade (in milliseconds)
 crossfade_duration = 5000
