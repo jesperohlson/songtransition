@@ -27,6 +27,12 @@ def trim_silence(sound, silence_thresh=-40, min_silence_len=1000):
 song1 = AudioSegment.from_file("lilbaby-grace.mp3")
 song2 = AudioSegment.from_file("playboicarti-location.mp3")
 
+tempo1, beats1 = get_beats("lilbaby-grace.mp3")
+tempo2, beats2 = get_beats("playboicarti-location.mp3")
+
+#print(beats1)
+#print(beats2)
+
 #Target Normalization
 target_dBFS = -20.0  # Good starting point
 song1 = match_target_amplitude(song1, target_dBFS)
